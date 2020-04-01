@@ -3,7 +3,7 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-body .users-column {
+/*body .users-column {
   display: inline-block;
   margin-right: 2em;
   vertical-align: top;
@@ -30,4 +30,6 @@ body .users-column .user-display-ele button {
 
 body .users-column .user-display-ele .edit-view {
   display: none;
-}
+}*/
+
+
