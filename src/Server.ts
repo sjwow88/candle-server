@@ -37,6 +37,8 @@ if (process.env.NODE_ENV === 'production') {
 // Add APIs
 app.use('/api', BaseRouter);
 
+app.use('/ws', BaseRouter);
+
 // Print API errors
 app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
     logger.error(err.message, err);
